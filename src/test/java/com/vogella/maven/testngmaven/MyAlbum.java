@@ -117,32 +117,22 @@ public class MyAlbum {
 			///Deleting Album///
 			
 			Thread.sleep(3000);
-			///MobileElement el15 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/empty");
-			///el15.click();
-			///Thread.sleep(3000);
-			////MobileElement el16 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/title");
-			///el16.click();
-			///Thread.sleep(3000);
-			///MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.GridView/android.widget.RelativeLayout[1]/android.widget.ImageView");
-			////el17.click();
-			///MobileElement el18 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/librayDeleteButton");
-			///el18.click();
-			////MobileElement el19 = (MobileElement) driver.findElementById("android:id/button1");
-			///el19.click();
-			////System.out.println(" First Album got deleted!");
 			
 			MobileElement el888 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/empty");
 			el888.click();
 			Thread.sleep(3000);
 			MobileElement el999 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView");
 			el999.click();
+			Thread.sleep(3000);
 			MobileElement el101 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/item_img");
 			el101.click();
+			Thread.sleep(3000);
 			MobileElement el1111 = (MobileElement) driver.findElementById("jp.co.anysense.myalbum:id/librayDeleteButton");
 			el1111.click();
+			Thread.sleep(3000);
 			MobileElement el1212 = (MobileElement) driver.findElementById("android:id/button1");
 			el1212.click();
-
+			System.out.println(" First Album got deleted!");
 		
 			
 			
